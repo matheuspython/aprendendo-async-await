@@ -33,7 +33,7 @@ function espera(mensagem, tempo){
 //   })
 //   .catch(err => console.log(err))
 
-
+//o async permite eu usar o await e ele faz com que eu possa esperar uma promise ser finalizada para utilizar o rerno dela
 async function executa(){
  try{
   const fase1 = await espera('fase 1',rand())
